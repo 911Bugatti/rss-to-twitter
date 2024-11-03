@@ -8,7 +8,7 @@ jobs:
   twitter:
     runs-on: ubuntu-latest
     steps:
-      - uses: azu/rss-to-twitter@v2
+      - uses: 911Bugatti/rss-to-twitter@v2
         with:
           # RSS feed URL
           RSS_URL: "https://binvol.github.io/tiktok-rss-flat/rss/ryukke"
